@@ -7,18 +7,5 @@ Things you may want to cover:
 
 * Setup new Rails application
 
-* System dependencies
+* Create a controller and route to new custom root page
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
