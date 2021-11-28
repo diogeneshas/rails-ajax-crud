@@ -45,7 +45,14 @@
   
   
   
-  
-  
-  
-* 
+* Add header and footer using bootstrap for styles
+	- create a new folder named shared inside app/views
+	- inside of folder shared create two new files : 
+		- _footer.html.erb
+		- _header.html.erb
+	
+	
+	
+	
+	
+* Add bootstrap styles for home page

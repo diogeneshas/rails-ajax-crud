@@ -10,3 +10,5 @@ Things you may want to cover:
 * Create a controller and route to new custom root page
 
 * Add Bootstrap 5, Jquery and Popper Js using yarn
+
+* Add header and footer using bootstrap for styles
