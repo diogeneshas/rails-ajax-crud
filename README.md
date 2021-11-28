@@ -12,3 +12,5 @@ Things you may want to cover:
 * Add Bootstrap 5, Jquery and Popper Js using yarn
 
 * Add header and footer using bootstrap for styles
+
+* Add bootstrap styles for home page
