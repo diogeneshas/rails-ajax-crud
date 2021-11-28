@@ -1,0 +1,51 @@
+* Setup new Rails application
+	- rails new ajax-rails
+	
+* Create a controller and route to new custom root page
+  	- rails g controller welcome index
+  	- in routes.rb file: root 'welcome#index'
+
+* Add Bootstrap 5, Jquery and Popper Js using yarn
+  	- yarn add bootstrap@5 @popperjs/core@^2.10.2 jquery@3.6
+  	- create a folder stylesheets inside of folder app/javascript
+  	- inside of stylesheets folder create a new file application.scss
+ 	- in application.scss import bootstrap : @import "~bootstrap/scss/bootstrap.scss"
+  	- inside of config/webpack/environment.js we need add jquery :
+  
+  		const { environment } = require('@rails/webpacker')
+
+		const webpack = require("webpack");
+
+		environment.plugins.append("Provide", new webpack.ProvidePlugin({
+  			$: 'jquery',
+  			jQuery: 'jquery'
+		}))
+
+		module.exports = environment
+	
+	
+	- inside of app/javascript/packs/application.js add in last line:
+	
+		import $ from 'jquery'
+		global.$ = jQuery
+
+		import 'stylesheets/application'
+		import 'bootstrap'
+	
+		
+	- inside of app/views/layouts/application.html.erb
+	
+		change :
+		<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+		for:
+		<%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+ 
+ 	- in terminal: ./bin/webpack-dev-server 
+  
+  
+  
+  
+  
+  
+* 
