@@ -14,3 +14,5 @@ Things you may want to cover:
 * Add header and footer using bootstrap for styles
 
 * Add bootstrap styles for home page
+
+* Add a resource(user) using scaffolding

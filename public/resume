@@ -52,7 +52,12 @@
 		- _header.html.erb
 	
 	
-	
-	
-	
 * Add bootstrap styles for home page
+
+* Brief introduction of MVC
+
+* Add a resource(user) using scaffolding
+
+* Add validations to model
+
+* Prepare some seed data using faker gem
