@@ -57,7 +57,10 @@
 * Brief introduction of MVC
 
 * Add a resource(user) using scaffolding
+ - rails g scaffold user name email address contact
 
 * Add validations to model
+ - validates :name, :address, presence: true
+ - validates :email, :contact, uniqueness: true, presence: true
 
 * Prepare some seed data using faker gem

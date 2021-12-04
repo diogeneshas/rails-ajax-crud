@@ -16,3 +16,5 @@ Things you may want to cover:
 * Add bootstrap styles for home page
 
 * Add a resource(user) using scaffolding
+
+* Add validations to model
