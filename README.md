@@ -20,3 +20,5 @@ Things you may want to cover:
 * Add validations to model
 
 * Prepare some seed data using faker gem
+
+* Add Bootstrap to resource view
