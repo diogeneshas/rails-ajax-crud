@@ -18,3 +18,5 @@ Things you may want to cover:
 * Add a resource(user) using scaffolding
 
 * Add validations to model
+
+* Prepare some seed data using faker gem
