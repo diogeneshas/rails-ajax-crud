@@ -22,3 +22,5 @@ Things you may want to cover:
 * Prepare some seed data using faker gem
 
 * Add Bootstrap to resource view
+
+* Create using AJAX

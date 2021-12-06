@@ -86,4 +86,16 @@
 
 * Add bootstrap to resource view
 
+* Add AJAX to perform CRUD
 
+* Create using AJAX
+
+* Read using AJAX
+
+* Update using AJAX
+
+* Delete using AJAX
+
+* Handling validation errors on from
+
+* Cleanup unused files and wrapping up course
