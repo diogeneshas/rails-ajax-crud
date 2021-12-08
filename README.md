@@ -1,9 +1,8 @@
-# README
+# Implementation of CRUD using Rails + AJAX
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+
+Things i want to cover:
 
 * Setup new Rails application
 
@@ -32,3 +31,7 @@ Things you may want to cover:
 * Delete using AJAX
 
 * Handling validation errors on form
+
+![Home Screen](https://github.com/diogeneshas/rails-ajax-crud/blob/d80e0a931e12e2cd733c0a4d138d4d4d1f88200e/public/Screenshot%20from%202021-12-07%2023-36-14.png) 
+![Home Screen](https://github.com/diogeneshas/rails-ajax-crud/blob/d80e0a931e12e2cd733c0a4d138d4d4d1f88200e/public/Screenshot%20from%202021-12-07%2023-36-39.png) 
+![Home Screen](https://github.com/diogeneshas/rails-ajax-crud/blob/d80e0a931e12e2cd733c0a4d138d4d4d1f88200e/public/Screenshot%20from%202021-12-07%2023-37-09.png) 
