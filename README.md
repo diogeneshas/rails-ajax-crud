@@ -24,3 +24,5 @@ Things you may want to cover:
 * Add Bootstrap to resource view
 
 * Create using AJAX
+
+* Read using AJAX
