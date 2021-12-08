@@ -26,3 +26,7 @@ Things you may want to cover:
 * Create using AJAX
 
 * Read using AJAX
+
+* Update using AJAX
+
+* Delete using AJAX
