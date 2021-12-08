@@ -30,3 +30,5 @@ Things you may want to cover:
 * Update using AJAX
 
 * Delete using AJAX
+
+* Handling validation errors on form
